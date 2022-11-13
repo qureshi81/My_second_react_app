@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
 
-const element = <h1>
-  hello from yushi
-</h1>
+function FirtComponent(){
+  return(
+    <div>
+      <ol>React is easy to learn</ol>
+      <ol>I will change my life with react</ol>
+      <ol>I want to stay motivated</ol>
+    </div>
+  )
+}
 
-ReactDOM.render(element, document.getElementById("root"))
+ReactDOM.render(<FirtComponent/>, document.getElementById("root"))
