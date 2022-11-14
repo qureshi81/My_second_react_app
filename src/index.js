@@ -3,12 +3,24 @@ import ReactDOM from 'react-dom'
 
 function FirtComponent(){
   return(
-    <div>
-      <ol>React is easy to learn</ol>
-      <ol>I will change my life with react</ol>
-      <ol>I want to stay motivated</ol>
-    </div>
+    <header>
+      <nav>
+        <img src="./logo192.png" alt='Simply easy' width=""/>  
+      </nav>
+      <h1>Reasons I am excited to learn React</h1>
+      <ol>
+      <li>It's a popular library, so ill be 
+        able to fit in with the cool kids.
+      </li>
+      <li>I will change my life with react</li>
+      <li>I'm more likely to get a job as as developer
+        if I know react.
+      </li>
+      </ol>
+      <footer>@ 20xx Shafique Development. All rights reserved. </footer>
+      </header>
+    
   )
 }
 
-ReactDOM.render(<FirtComponent/>, document.getElementById("root"))
+ReactDOM.render(< FirtComponent />, document.getElementById("root"))
