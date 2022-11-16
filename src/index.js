@@ -13,8 +13,10 @@ function Header(){
 
 function FirtComponent() {
   return (
+    
     <div>
-      <Header />
+      {/* Reference to parent component  */}
+      <Header/> 
       <h1>Reasons I am excited to learn React</h1>
       <ol>
         <li>It's a popular library, so ill be
