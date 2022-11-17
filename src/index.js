@@ -6,6 +6,9 @@ function Header(){
   <header>
         <nav>
           <img src="./logo192.png" alt='Simply easy' width="40px" />
+          <ul>
+            <li>Pricing   About  Contact</li>
+          </ul>
         </nav>
       </header>
     )
@@ -17,6 +20,17 @@ function FirtComponent() {
     <div>
       {/* Reference to parent component  */}
       <Header/> 
+      <MainContent/>
+      <Footer/>
+      </div>
+      
+
+  )
+}
+
+function MainContent() {
+  return(
+    <div>    
       <h1>Reasons I am excited to learn React</h1>
       <ol>
         <li>It's a popular library, so ill be
@@ -27,10 +41,17 @@ function FirtComponent() {
           if I know react.
         </li>
       </ol>
-      <footer>
-        <small> ©2022 Shafique Development. All rights reserved. </small>
-      </footer>
-    </div>
+      </div>
+
+
+  )
+}
+
+function Footer(){
+  return(
+    <footer>
+    <small> ©2022 Shafique Development. All rights reserved. </small>
+  </footer>
 
   )
 }
