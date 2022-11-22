@@ -6,7 +6,7 @@ import "./style.css"
 function Header(){
   return(
   <header>
-        <nav>
+        <nav className='nav'>
           <img src="./logo192.png" alt='Simply easy' width="40px" />
           <ul className='nav-items'>
             <li>Pricing</li>
