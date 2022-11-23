@@ -7,7 +7,7 @@ function Header(){
   return(
   <header>
         <nav className='nav'>
-          <img src="./logo192.png" alt='Simply easy' width="40px" />
+          <img src="./logo192.png" alt='Simply easy' className="nav-logo"/>
           <ul className='nav-items'>
             <li>Pricing</li>
             <li>About</li>
@@ -53,7 +53,7 @@ function MainContent() {
 
 function Footer(){
   return(
-    <footer>
+    <footer className='foot-class'>
     <small> ©2022 Shafique Development. All rights reserved. </small>
   </footer>
 
