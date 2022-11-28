@@ -30,7 +30,7 @@ function MainContent() {
         </li>
         <li>I will change my life with react</li>
         <li>I'm more likely to get a job as as developer
-          if I know react.
+          if I know react. And I will not not give up.
         </li>
       </ol>
       </div>
